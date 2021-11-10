@@ -1,0 +1,56 @@
+html {
+    background-color: #243447;
+}
+
+.navbar-brand {
+    font-family: yonoseFont;
+}
+
+.bgcolour-twitter {
+    background-color: #243447;
+}
+
+.bgcolour-twitter-l {
+    background-color: #59789e;
+}
+
+.bgcolour-twitter-Dark {
+    background-color: #141d26;
+}
+.viewport {
+    max-width: 640px;
+    margin: auto;
+}
+
+.marginauto {
+    display: block;
+    margin: auto;
+    display: block;
+}
+
+input {
+    background-color: transparent;
+    outline: white;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.sticky-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1em;
+}
+
+
+@font-face {
+    font-family: yonoseFont;
+    src: url(../fonts/UKNP.ttf);
+  }
